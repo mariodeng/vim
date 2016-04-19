@@ -1,0 +1,6 @@
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/Nvim-R"]
+	path = bundle/Nvim-R
+	url = git@github.com:jalvesaq/Nvim-R.git
