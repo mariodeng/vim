@@ -21,8 +21,10 @@ colorscheme Tomorrow-Night-Eighties
 " set font to menlo with 18pt
 set guifont=Menlo\ Regular:h12
 
-" open vim with a pre-definied size
-set lines=75 columns=150
+" open vim with a pre-definied size, only if gui is available
+if has("gui_running")
+  set lines=75 columns=150
+endif
 
 " grey highlight to indicate 80 character
 set colorcolumn=80
